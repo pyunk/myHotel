@@ -31,25 +31,25 @@ int main(){
     if (roomCode == R){
         price = 170.00;
         total_price = price * days;
-        cout << "you choose Luxury Suite" << endl;
+        cout << "you choose Superior room" << endl;
         cout << "the price is RM " << total_price << endl;
         }
     else if (roomCode == D){
         price = 150.00;
         total_price = price * days;
-        cout << "you choose Family Room" << endl;
+        cout << "you choose Deluxe Room" << endl;
         cout << "the price is RM " << total_price << endl;
         }
     else if (roomCode == S){
         price = 130.00;
         total_price = price * days;
-        cout << "you choose Couple Room" << endl;
+        cout << "you choose Standard Room" << endl;
         cout << "the price is RM " << total_price << endl;
         }
     else if (roomCode == E){
         price = 90.00;
         total_price = price * days;
-        cout << "you choose Single Room" << endl;
+        cout << "you choose Economy Room" << endl;
         cout << "the price is RM " << total_price << endl;
         }
     else {
